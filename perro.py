@@ -34,7 +34,6 @@ class Perro:
             raise ValueError(f"Temperamento inválido. Debe ser: {', '.join(self.TEMPERAMENTOS_VALIDOS)}")
         self.temperamento = temperamento.lower()
     
-
     
     def es_dominante(self):
         """Retorna True si el perro tiene temperamento dominante o agresivo"""

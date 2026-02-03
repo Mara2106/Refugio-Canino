@@ -28,7 +28,6 @@ class Recurso:
             'tipo': self.tipo
         }
 
-
 class Espacio(Recurso):
     """Representa un espacio físico del refugio"""
     
@@ -130,7 +129,6 @@ class Personal(Recurso):
             telefono=data.get('telefono', ''),
             email=data.get('email', '')
         )
-
 
 class InventarioRecursos:
     """Gestiona el inventario de todos los recursos del refugio"""
