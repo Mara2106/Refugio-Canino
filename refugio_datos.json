@@ -1,0 +1,199 @@
+{
+  "inventario": {
+    "espacios": {
+      "sala_adopcion_1": {
+        "id": "sala_adopcion_1",
+        "nombre": "Sala de Adopción 1",
+        "tipo": "espacio",
+        "capacidad": 1,
+        "descripcion": ""
+      },
+      "sala_adopcion_2": {
+        "id": "sala_adopcion_2",
+        "nombre": "Sala de Adopción 2",
+        "tipo": "espacio",
+        "capacidad": 1,
+        "descripcion": ""
+      },
+      "sala_medica": {
+        "id": "sala_medica",
+        "nombre": "Sala Médica",
+        "tipo": "espacio",
+        "capacidad": 1,
+        "descripcion": ""
+      },
+      "area_entrenamiento": {
+        "id": "area_entrenamiento",
+        "nombre": "Área de Entrenamiento",
+        "tipo": "espacio",
+        "capacidad": 1,
+        "descripcion": ""
+      },
+      "area_socializacion": {
+        "id": "area_socializacion",
+        "nombre": "Área de Socialización",
+        "tipo": "espacio",
+        "capacidad": 1,
+        "descripcion": ""
+      },
+      "sala_aseo": {
+        "id": "sala_aseo",
+        "nombre": "Sala de Aseo",
+        "tipo": "espacio",
+        "capacidad": 1,
+        "descripcion": ""
+      }
+    },
+    "personal": {
+      "vet_garcia": {
+        "id": "vet_garcia",
+        "nombre": "Dr. García",
+        "tipo": "personal",
+        "rol": "veterinario",
+        "telefono": "",
+        "email": ""
+      },
+      "vet_lopez": {
+        "id": "vet_lopez",
+        "nombre": "Dra. López",
+        "tipo": "personal",
+        "rol": "veterinario",
+        "telefono": "",
+        "email": ""
+      },
+      "entrenador_carlos": {
+        "id": "entrenador_carlos",
+        "nombre": "Carlos Martínez",
+        "tipo": "personal",
+        "rol": "entrenador",
+        "telefono": "",
+        "email": ""
+      },
+      "voluntario_maria": {
+        "id": "voluntario_maria",
+        "nombre": "María González",
+        "tipo": "personal",
+        "rol": "voluntario",
+        "telefono": "",
+        "email": ""
+      },
+      "groomer_ana": {
+        "id": "groomer_ana",
+        "nombre": "Ana Rodríguez",
+        "tipo": "personal",
+        "rol": "groomer",
+        "telefono": "",
+        "email": ""
+      }
+    },
+    "perros": {
+      "rex": {
+        "id": "rex",
+        "nombre": "Rex",
+        "raza": "Pastor Alemán",
+        "edad": 3,
+        "tamano": "grande",
+        "temperamento": "dominante"
+      },
+      "luna": {
+        "id": "luna",
+        "nombre": "Luna",
+        "raza": "Mestizo",
+        "edad": 2,
+        "tamano": "mediano",
+        "temperamento": "timido"
+      },
+      "max": {
+        "id": "max",
+        "nombre": "Max",
+        "raza": "Chihuahua",
+        "edad": 1,
+        "tamano": "pequeño",
+        "temperamento": "social"
+      },
+      "bella": {
+        "id": "bella",
+        "nombre": "Bella",
+        "raza": "Beagle",
+        "edad": 4,
+        "tamano": "mediano",
+        "temperamento": "social"
+      },
+      "coco": {
+        "id": "coco",
+        "nombre": "Coco",
+        "raza": "Poodle",
+        "edad": 2,
+        "tamano": "pequeño",
+        "temperamento": "social"
+      },
+      "perro06": {
+        "id": "perro06",
+        "nombre": "ella",
+        "raza": "Mestizo",
+        "edad": 5,
+        "tamano": "mediano",
+        "temperamento": "timido"
+      }
+    }
+  },
+  "eventos": [
+    {
+      "id": "evt_004",
+      "tipo": "Chequeo Veterinario",
+      "recursos_ids": [
+        "sala_medica",
+        "vet_lopez",
+        "rex",
+        "luna",
+        "bella"
+      ],
+      "inicio": "2026-02-02T22:00:00",
+      "fin": "2026-02-02T22:30:00",
+      "descripcion": ""
+    },
+    {
+      "id": "evt_005",
+      "tipo": "Baño y Aseo",
+      "recursos_ids": [
+        "sala_aseo",
+        "groomer_ana",
+        "luna",
+        "max",
+        "perro06"
+      ],
+      "inicio": "2026-02-05T09:00:00",
+      "fin": "2026-02-05T09:30:00",
+      "descripcion": ""
+    },
+    {
+      "id": "evt_006",
+      "tipo": "Chequeo Veterinario",
+      "recursos_ids": [
+        "sala_medica",
+        "vet_lopez",
+        "rex",
+        "bella"
+      ],
+      "inicio": "2026-02-03T10:00:00",
+      "fin": "2026-02-03T10:30:00",
+      "descripcion": ""
+    },
+    {
+      "id": "evt_007",
+      "tipo": "Sesión de Entrenamiento",
+      "recursos_ids": [
+        "area_entrenamiento",
+        "entrenador_carlos",
+        "luna",
+        "max",
+        "coco"
+      ],
+      "inicio": "2026-02-03T10:00:00",
+      "fin": "2026-02-03T11:00:00",
+      "descripcion": ""
+    }
+  ],
+  "contador_eventos": 8,
+  "fecha_guardado": "2026-02-02T22:54:29.963657"
+}
