@@ -127,13 +127,21 @@
         "tamano": "pequeño",
         "temperamento": "social"
       },
-      "perro06": {
-        "id": "perro06",
+      "ella": {
+        "id": "ella",
         "nombre": "ella",
         "raza": "Mestizo",
         "edad": 5,
         "tamano": "mediano",
         "temperamento": "timido"
+      },
+      "samy": {
+        "id": "samy",
+        "nombre": "samy",
+        "raza": "golden",
+        "edad": 2,
+        "tamano": "grande",
+        "temperamento": "social"
       }
     }
   },
@@ -195,5 +203,5 @@
     }
   ],
   "contador_eventos": 8,
-  "fecha_guardado": "2026-02-02T22:54:29.963657"
+  "fecha_guardado": "2026-02-02T23:56:05.915823"
 }

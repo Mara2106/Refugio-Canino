@@ -88,6 +88,17 @@ class VentanaPrincipal(ctk.CTk):
         )
         self.btn_guardar.pack(pady=10, padx=20, fill="x")
         
+        # Botón salir
+        self.btn_salir = ctk.CTkButton(
+            self.panel_menu,
+            text="Salir",
+            command=self.salir,
+            height=40,
+            fg_color="red",
+            hover_color="maroon"
+        )
+        self.btn_salir.pack(pady=10, padx=20, fill="x")
+        
         # ===== PANEL PRINCIPAL (Contenido) =====
         self.panel_principal = ctk.CTkFrame(self, corner_radius=0)
         self.panel_principal.pack(side="right", fill="both", expand=True, padx=0, pady=0)
@@ -968,3 +979,7 @@ class VentanaPrincipal(ctk.CTk):
             messagebox.showinfo("Éxito", mensaje)
         else:
             messagebox.showerror("Error", mensaje)
+
+    def salir(self):
+        """Cierra la aplicación"""
+        self.quit()
